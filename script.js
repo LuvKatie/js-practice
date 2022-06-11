@@ -35,7 +35,7 @@
 // }
 
 // ----------------------------------------------------------------------------------
-// Loops
+// Loops - June 09 2022
 // ----------------------------------------------------------------------------------
 
 // function pow(x, n) {
@@ -59,7 +59,7 @@
 // }
 
 // ----------------------------------------------------------------------------------
-//Arrow Functions
+//Arrow Functions - June 10 222
 // ----------------------------------------------------------------------------------
 
 // function ask(question, yes, no) {
@@ -88,7 +88,7 @@
 // );
 
 // ----------------------------------------------------------------------------------
-// Simple function tests
+// Simple function tests - June 10 2022
 // ----------------------------------------------------------------------------------
 
 // let add = (n) => n + 7;
@@ -105,4 +105,24 @@
 // let lastChar = (word) => {
 //     let getLength = word.length - 1;
 //     return word.charAt(getLength);
+// }
+
+// ----------------------------------------------------------------------------------
+// FizzBuzz - June 11 2022
+// ----------------------------------------------------------------------------------
+
+// let answer = parseInt(prompt("Please enter a number you would like to FizzBuzz up to: "));
+
+// for (let i = 1; i <= answer; i++) {
+//         if (answer === null || answer === undefined || answer < 0) {
+//             alert("Please enter an position integer!")
+//         } else if (i % 3 == 0 && i % 5 == 0) {
+//             console.log("Fizzbuzz!")
+//         } else if (i % 3 == 0) {
+//             console.log("Fizz")
+//         } else if (i % 5 == 0) {
+//             console.log("Buzz")
+//         } else {
+//             console.log(i)
+//         }
 // }
