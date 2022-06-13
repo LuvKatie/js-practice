@@ -127,11 +127,12 @@
 //         }
 // }
 
-
+// ----------------------------------------------------------------------------------
 // contact.split(":") here is splitting each object in the array by the separator :
 // thus for (const contact of contacts) each object is being sperated into its own array of splitContact each time
 // resulting in storing the values on split of : so e.g - Chris ":" 2232322
 // and this will reiterate each time until the input matches splitContact
+// ----------------------------------------------------------------------------------
 
 // const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
 // const para = document.querySelector('p');
@@ -154,3 +155,23 @@
 //    para.textContent = 'Contact not found.';
 //  }
 // });
+
+// ----------------------------------------------------------------------------------
+// Console logging each variable to see what's happening here with a nested for loop
+// seems like j < i is the deciding factor to check thoroughly whether or not i is a prime number
+// and if i is not a prime number it will continue and check the next
+// ----------------------------------------------------------------------------------
+
+// let n = 10;
+
+// nextPrime:
+// for (let i = 2; i <= n; i++) { // for each i...
+
+//   for (let j = 2; j < i; j++) { // look for a divisor..
+//         console.log(`${i} this is I`);
+//         console.log(`${j} This is J`);
+//     if (i % j == 0) continue nextPrime; // not a prime, go next i
+//   }
+
+//   console.log( i ); // a prime
+// }
