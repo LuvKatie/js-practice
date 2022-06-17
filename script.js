@@ -175,3 +175,26 @@
 
 //   console.log( i ); // a prime
 // }
+
+const container = document.querySelector('#container');
+
+const newDiv = document.createElement('div');
+const para = document.createElement('p');
+const para2 = document.createElement('p');
+const header3 = document.createElement('h3');
+const header1 = document.createElement('h1');
+
+para.textContent = 'Hey I\'m red!';
+para.style.color = 'red';
+
+
+header3.textContent = 'I\'m a blue h3!';
+header3.style.color = 'blue';
+
+container.append(para, header3, newDiv);
+
+newDiv.style.cssText = 'background: pink; border: solid black;'
+para2.textContent = 'ME TOO!';
+header1.textContent = 'I\'m in a div';
+
+newDiv.append(header1, para2);
